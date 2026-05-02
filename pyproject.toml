@@ -1,0 +1,11 @@
+[project]
+name = "sma-mcp-sse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "mcp[cli,server]>=1.27.0",
+    "tavily-python>=0.7.24",
+]
